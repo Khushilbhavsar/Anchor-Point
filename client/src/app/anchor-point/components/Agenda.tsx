@@ -23,7 +23,7 @@ export default function Agenda() {
         <dl className="divide-y divide-border">
           {rows.map((row) => (
             <div key={row.time} className="flex gap-6 py-4">
-              <dt className="w-16 shrink-0 font-mono text-sm font-semibold text-accent">
+              <dt className="w-16 shrink-0 font-mono text-sm font-semibold text-primary">
                 {row.time}
               </dt>
               <dd className="text-sm leading-relaxed text-foreground">

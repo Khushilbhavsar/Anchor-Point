@@ -11,18 +11,18 @@ import Partners from "./components/Partners";
 export const metadata: Metadata = {
   title: "Anchor Point — the Stellar builder community by stellarIDE",
   description:
-    "Solid ground for builders shipping on Stellar. A recurring meetup series for developers, founders, and ecosystem leaders.",
+    "Solid ground for builders shipping on Stellar. A recurring meetup for developers, founders, and ecosystem contributors.",
   openGraph: {
     title: "Anchor Point — the Stellar builder community by stellarIDE",
     description:
-      "Solid ground for builders shipping on Stellar. A recurring meetup series for developers, founders, and ecosystem leaders.",
+      "Solid ground for builders shipping on Stellar. A recurring meetup for developers, founders, and ecosystem contributors.",
     images: ["/anchor-point-og.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Anchor Point — the Stellar builder community by stellarIDE",
     description:
-      "Solid ground for builders shipping on Stellar. A recurring meetup series for developers, founders, and ecosystem leaders.",
+      "Solid ground for builders shipping on Stellar. A recurring meetup for developers, founders, and ecosystem contributors.",
     images: ["/anchor-point-og.png"],
   },
 };

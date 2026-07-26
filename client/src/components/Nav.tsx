@@ -8,6 +8,7 @@ const navItems = [
   { label: "Features", href: "/#features" },
   { label: "Pricing", href: "/#pricing" },
   { label: "FAQ", href: "/#faq" },
+  { label: "Community", href: "/anchor-point" },
 ];
 
 export default function Nav() {
@@ -36,14 +37,6 @@ export default function Nav() {
               </Link>
             </li>
           ))}
-          <li>
-            <Link
-              href="/anchor-point"
-              className="rounded-lg bg-accent/10 px-3 py-1.5 text-sm font-semibold text-accent transition-colors hover:bg-accent/20"
-            >
-              Community
-            </Link>
-          </li>
         </ul>
 
         {/* Mobile toggle */}
@@ -81,16 +74,7 @@ export default function Nav() {
                 </Link>
               </li>
             ))}
-            <li>
-              <Link
-                href="/anchor-point"
-                className="block text-sm font-semibold text-accent transition-colors hover:text-accent-light"
-                onClick={() => setOpen(false)}
-              >
-                Community
-              </Link>
-            </li>
-          </ul>
+        </ul>
         </div>
       )}
     </nav>
